@@ -1,0 +1,57 @@
+/* SVG */
+
+.svg-small {
+    width: 20px;
+    height: 20px;
+}
+
+.svg-medium {
+    width: 30px;
+    height: 30px;
+}
+
+.svg-semiMedium {
+    width: 25px;
+    height: 25px;
+}
+
+.svg-semiLarge {
+    width: 35px;
+    height: 35px;
+}
+
+.svg-guildIcon {
+    width: 7%;
+    height: 7%;
+}
+
+.svg-large {
+    width: 40px;
+    height: 40px;
+}
+
+.svg-superLarge {
+    width: 100px;
+    height: 100px;
+}
+
+.svg-reallyLarge {
+    width: 70px;
+    height: 70px;
+}
+
+.minw {
+    min-width: 45rem;
+}
+
+/* LIB */
+
+.Button {
+    background-color: #36373f;
+    min-width: 6rem;
+}
+
+.Button:hover,
+.Button:active {
+    background-color: #3b3c42;
+}

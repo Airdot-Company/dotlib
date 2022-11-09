@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root color varibles & more varibles */
+:root {
+  /* Sets of colors for diffrent items */
+  --scrollbar-color: var(--color-primary);
+  --background-color: var(--gray-dark);
+  --scrollbar-padding: var(--background-color);
+  /* Sets of gray from Discord (https://discord.com/app) */
+  --grey-extra-light: #5c626b;
+  --gray-light: #3e4147;
+  --gray-dark: #292b2f;
+  --gray-extra-dark: #1b1d20;
+  --gray-extra-extra-dark: #121213;
+  /* Other */
+  font-family: 'Poppins', sans-serif;
+  --fiery-coral: #FF424D;
+}
+
+/* Colors from `--color-*` varibles*/
+.color-dark {
+  color: var(--color-dark);
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-light {
+  color: var(--color-light);
+}
+
+.color-extra-light {
+  color: var(--color-extra-light);
+}
+
+.color-dark-but-not-dark {
+  color: var(--color-dark-but-not-dark);
+}
+
+.color-light-but-not-light {
+  color: var(--color-light-but-not-light);
+}
+
+.color-fiery-coral {
+  color: var(--fiery-coral);
+}
+
+.color-window-link {
+  color: white;
+}
+
+.color-window-link:hover {
+  color: #e2e2e2;
+}
+
+.bg-color-dark {
+  background-color: var(--color-dark);
+}
+
+.bg-color-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-color-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-color-light {
+  background-color: var(--color-light);
+}
+
+.bg-color-extra-light {
+  background-color: var(--color-extra-light);
+}
+
+.bg-color-dark-but-not-dark {
+  background-color: var(--color-dark-but-not-dark);
+}
+
+.bg-color-light-but-not-light {
+  background-color: var(--color-light-but-not-light);
+}
+
+.bg-fiery-coral {
+  background-color: var(--fiery-coral);
+}
+
+.bg-gray {
+  background-color: #292b30;
+}
+
+.hover\:bg-gray:hover {
+  background-color: #313237;
+}
+
+/* Global colors from `--gray-*` varibles */
+.gray-light {
+  color: var(--gray-light);
+}
+
+.gray-dark {
+  color: var(--gray-dark);
+}
+
+.gray-extra-dark {
+  color: var(--gray-extra-dark);
+}
+
+.gray-extra-light {
+  color: var(--grey-extra-light);
+}
+
+.bg-gray-light {
+  background-color: var(--gray-light);
+}
+
+.bg-gray-dark {
+  background-color: var(--gray-dark);
+}
+
+.bg-gray-extra-dark {
+  background-color: var(--gray-extra-dark);
+}
+
+.bg-gray-extra-light {
+  background-color: var(--grey-extra-light);
+}
+
+.bg-gray-m {
+  background-color: #2d2f34;
+}
+
+.bg-gray-extraadark {
+  background-color: var(--gray-extra-extra-dark);
+}
+
+.bg-windows {
+  background-color: #0178D6;
+}
+
+/* :hover's */
+.gray-light\:hover:hover {
+  color: var(--gray-light);
+}
+
+.gray-dark\:hover:hover {
+  color: var(--gray-dark);
+}
+
+.gray-extra-dark\:hover:hover {
+  color: var(--gray-extra-dark);
+}
+
+.gray-extra-light\:hover:hover {
+  color: var(--gray-extra-light);
+}
+
+.bg-gray-light\:hover:hover {
+  background-color: var(--gray-light);
+}
+
+.bg-gray-dark\:hover:hover {
+  background-color: var(--gray-dark);
+}
+
+.bg-gray-extra-dark\:hover:hover {
+  background-color: var(--gray-extra-dark);
+}
+
+.bg-gray-extra-light\:hover:hover {
+  background-color: var(--gray-extra-light);
+}
+
+.bg-gray-m\:hover:hover {
+  background-color: #2d2f34;
+}
+
+.bg-gray-extraadark\:hover:hover {
+  background-color: var(--gray-extra-extra-dark);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #1e2024;
+  }
+}
